@@ -39,8 +39,8 @@ app.put('/api/users/:id', (req, res) => {
 // Create a DELETE endpoint
 app.delete('/api/users/:id', (req, res) => {
     const userId = req.params.id;
-    res.json({ message: `User with ID ${userId
-
+    res.json({ message: `User with ID ${userId} deleted!` });
+});
 
 // Start the server
 app.listen(PORT, () => {
