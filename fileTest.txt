@@ -1,0 +1,2 @@
+This is a test for the http post api that can read a file. If you are reading this response from postman then you are successfully uploading and returning the contents of this txt file.
+
