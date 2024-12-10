@@ -9,7 +9,7 @@ app.use(express.json());
 
 // Root route
 app.get('/', (req, res) => {
-    res.send('Welcome to my local server!');
+    res.send('Welcome to Brian Yi local server! Now get a JOB!!');
 });
 
 // Create a new GET endpoint
